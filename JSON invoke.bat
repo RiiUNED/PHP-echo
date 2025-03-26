@@ -1,0 +1,1 @@
+powershell -Command "Invoke-RestMethod -Uri 'http://localhost/index.php' -Method Post -Headers @{'Content-Type'='application/json'} -InFile 'D:\proyecto\echo\mensaje1.json'"
